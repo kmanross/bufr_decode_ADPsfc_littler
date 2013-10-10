@@ -1,0 +1,26 @@
+Ship Header Definitions:
+
+
+DATACAT = BUFR Data Category
+RPID = Report Identifier
+SELV = Height of Station (m)
+YEAR = YEAR
+MNTH = MONTH
+DAY = DAY
+HOUR = HOUR
+MIN = MIN
+LAT = Latitude (Deg)
+LON = Longitude (Deg)
+TMP = Temperature/Dry Bulb Temperature (K)
+TMDP = Dew-Point Temperature (K)
+SST1 = Sea/Water Temperature (K) 
+PRES = Pressure (Pa)
+PMSL = Pressure Reduced to mean sea level (Pa)
+3HPC = 3-Hour Pressure Change (Pa)
+24PC = 24-Hour Pressure Change (Pa)
+TP06 = Total Precipitation past 6 hours (kg/m**2)
+TOCC = Total Cloud Cover (%)
+WDIR = Wind Direction (Degree True)
+WSPD = Wind Speed (m/s)
+HOCB = Height of Base of Cloud (m)
+

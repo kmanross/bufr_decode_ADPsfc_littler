@@ -1,0 +1,26 @@
+Land Header Definitions:
+
+
+DATACAT = BUFR Data Category
+WMOB = WMO Block Number
+WMOS = WMO Station Number
+RPID = Report Identifier
+SELV = Height of Station (m)
+YEAR = YEAR
+MNTH = MONTH
+DAY = DAY
+HOUR = HOUR
+MIN = MIN
+LAT = Latitude (Deg)
+LON = Longitude (Deg)
+TMDB = Temperature/Dry Bulb Temperature (K)
+TMDP = Dew-Point Temperature (K)
+PRES = Pressure (Pa)
+PMSL = Pressure Reduced to mean sea level (Pa)
+REHU = Relative Humidity (%)
+TP03 = Total Precipitation past 3 hours (kg/m**2)
+TP24 = Total Precipitation past 24 hours (kg/m**2)
+WDIR = Wind Direction (Degree True)
+WSPD = Wind Speed (m/s)
+HOCB = Height of Base of cloud (m)
+CLTP = Cloud Type (see code table)
