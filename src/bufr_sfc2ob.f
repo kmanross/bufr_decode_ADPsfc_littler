@@ -115,8 +115,9 @@ C*      (i.e. YYYYMMDDHH ).
 C*          Read the next BUFR message.
 
            call readns(11,csubset,idate,ierr)
-           code = IUPBS1(MBAY,33) 
-            write(*,*)' idate: ',idate,'  ',csubset,' ',code
+C           code = IUPBS1(MBAY,33) 
+C            write(*,*)' idate: ',idate,'  ',csubset,' ',code
+            write(*,*)' idate: ',idate,'  ',csubset
             IF  ( ierr .eq.  -1 )  THEN
                 write(*,*) '....all records read, Exit'
                 CALL CLOSBF  ( 11 )
